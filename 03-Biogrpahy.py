@@ -35,29 +35,5 @@ print(f"Name: {name}\nHometown: {hometown}\nAge: {age}")
 # IF the user inputs a string value (eg: twenty) for age, a neccessary code needs to be given in order
 #                 to tell the user to input a valid number for their age
 
-#Program: 
-
-name = input("Enter your name full name(Your first and last name): ") 
-hometown = input("Enter your hometown: ")
-
-while True: 
-    age = input("Enter your age: ")  
-    if age.isdigit(): # checks whether the age is an integer or not
-        age = int(age) # converts the given string value to an integer
-        break  # this exits the loop if the input given is valid
-    else:
-        print ("Please enter a valid number for your age")
-
-print(f"Name: {name}\nHometown: {hometown}\nAge: {age}")
-
-#Output for this code above:
-# Enter your name full name(Your first and last name): Achilles Maling
-# Enter your hometown: Antipolo
-# Enter your age: Nineteen
-# Please enter a valid number for your age
-# Enter your age: 19
-# Name: Achilles Maling
-# Hometown: Antipolo
-# Age: 19
 
 
