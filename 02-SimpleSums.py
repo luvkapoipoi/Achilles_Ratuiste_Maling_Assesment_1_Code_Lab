@@ -12,3 +12,9 @@ integer1 = 8
 integer2 = 10
 sum_result = (integer1 + integer2)
 print(sum_result)
+
+# Explanation: In this code, it emphasises integer1 as 8 and integer2 as 10. 
+#              It then stores it in sum_result and calculates their sum, which is
+#              printed to the terminal. Output will be 18
+
+# Output = 18
