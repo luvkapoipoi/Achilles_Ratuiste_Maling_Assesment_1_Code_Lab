@@ -41,9 +41,9 @@ hometown = input("Enter your hometown: ")
 
 while True: 
     age = input("Enter your age: ")  
-    if age.isdigit(): 
-        age = int(age) 
-        break  
+    if age.isdigit(): # checks whether the age is an integer or not
+        age = int(age) # converts the given string value to an integer
+        break  # this exits the loop if the input given is valid
     else:
         print ("Please enter a valid number for your age")
 
