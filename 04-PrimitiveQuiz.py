@@ -16,7 +16,42 @@
 
 answer = input("What is the capital of France? ")
 
-if answer.lower() == "paris":
+if answer.lower() == "paris": #This allows the user to input the word 'paris' in any form (eg: Paris, PaRis)
+
     print ("The answer you have given is correct ")
+
 else:
+
     print ("The answer you have given is wrong. ")
+
+#Guess the Capital of Each City
+
+Quiz = [
+    ("What is the capital of France?", "Paris"), #1
+    ("What is the capital of Germany?", "Berlin"), #2
+    ("What is the capital of Italy?", "Rome"), #3
+    ("What is the capital of Spain?", "Madrid"), #4
+    ("What is the capital of the Netherlands?", "Amsterdam"), #5
+    ("What is the capital of Greece?", "Athens"), #6
+    ("What is the capital of Portugal?", "Lisbon"), #7
+    ("What is the capital of Belgium?", "Brussels"), #8
+    ("What is the capital of Switzerland?", "Bern"), #9
+    ("What is the capital of Belgium?", "Brussels"), #10
+]
+
+#Creates a tuple which acts like a Quiz
+
+print ("Welcome to Guess the Capital of Each City" )
+
+for Quiz, correct_answer in Quiz: # The 'for' loop goes throught each question, asking and checking if the answer is correct
+    answer = input(Quiz + " ")
+    if answer.lower() == correct_answer.lower(): #This allows the user to input the word 'paris' in any form (eg: Paris, PaRis)
+
+        print ("The answer you have given is correct ")
+
+    else: 
+        print("The answer you have given is wrong. ")
+
+print ("That is the end of the quiz, thank you. ")
+
+
