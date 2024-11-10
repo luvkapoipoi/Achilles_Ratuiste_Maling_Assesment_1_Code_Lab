@@ -51,10 +51,10 @@ print(f"Name: {name}\nHometown: {hometown}\nAge: {age}")
 
 #Output for this code above:
 # Enter your name full name(Your first and last name): Achilles Maling
-# Enter your hometown: Antipolo
+# Enter your hometown: Antipolo, Philippines
 # Enter your age: Nineteen
 # Please enter a valid number for your age
 # Enter your age: 19
 # Name: Achilles Maling
-# Hometown: Antipolo
+# Hometown: Antipolo, Philippines
 # Age: 19

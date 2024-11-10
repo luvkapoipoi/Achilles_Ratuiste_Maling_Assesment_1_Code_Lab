@@ -15,4 +15,4 @@ print ( word1 + word2 + word3 )
 #             these variables with the + operators and prints the resulting string to the terminal. yes
 
 
-#output = Coding is Cool
+#Output = Coding is Cool
