@@ -11,7 +11,7 @@
 #  Leap Year Adjustment: Modify the program to account for leap years. For February, 
 #  ask the user if the year is a leap year and adjust the number of days accordingly.
 
-#Program
+## Program
 
 month_days = {
     1: 31, 2: 28, 3: 31, 4: 30, 5: 31, 6: 30, 
@@ -34,7 +34,7 @@ else:
 # Output: Enter the month number (1-12): 3
 #         This month has 31 days. 
 
-# Advanced Program which considers whether the year is a leap year.
+## Advanced Program 
 
 month_days = {
     1: 31, 2: 28, 3: 31, 4: 30, 5: 31, 6: 30, 

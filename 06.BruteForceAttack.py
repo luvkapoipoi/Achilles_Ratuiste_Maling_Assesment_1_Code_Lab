@@ -25,7 +25,7 @@ while True: # The 'while true' creates an infinite loop as it will keep asking f
         break   #This break exits the loop. This means the user has entered the correct password.
 
     else:
-        print ("Incorrect Password, please try again: ")
+        print ("Incorrect Password, please try again :(")
 
 # Explanation: In this program, it presents a password system in which asks the user for their password to log them in to their system or to whatever 
 #              to they are trying to get access to. It showcases a python loop (infinite while loop) as it gives the user infinite chances in attempting
