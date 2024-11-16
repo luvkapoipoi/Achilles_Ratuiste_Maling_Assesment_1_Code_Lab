@@ -43,7 +43,7 @@ while True:
     age = input("Enter your age: ")  
     if age.isdigit(): # checks whether the age is an integer or not
         age = int(age) # converts the given string value to an integer
-        break  # this exits the loop if the input given is valid
+        break  # this exits the loop if the user has entered a proper number
     else:
         print ("Please enter a valid number for your age")
 
