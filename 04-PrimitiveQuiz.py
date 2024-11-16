@@ -44,7 +44,7 @@ Quiz = {
     ("What is the capital of Belgium?", "Brussels"), #10
 }
 
-#Creates a tuple which acts like a Quiz
+#Creates a Dictionary which acts like a Quiz
 
 print ("Welcome to Guess the Capital of Each City" )
 

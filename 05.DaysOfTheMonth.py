@@ -66,6 +66,10 @@ else: #This part asks the user if the current year is a leap year or not
 #              the program then asks the user whether if the current year is a leap year or not. If it is, the program 
 #              outputs a different number for the month of February. 
 
+# Output: Enter the month number (1-12): 2
+#         Is the current year a leap year? (yes or no): yes
+#         Then the month of February has 29 days
+
 
 
 
