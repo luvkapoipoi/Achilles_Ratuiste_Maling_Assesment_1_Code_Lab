@@ -9,7 +9,7 @@
 
 #Program
 
-list_of_names = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"]
+list_of_names = ["Jake", "Zac", "Ian", "Ron", "Dave"]
 
 name_search = "Sam"   #This tells the program the name we want to search in the list
 
