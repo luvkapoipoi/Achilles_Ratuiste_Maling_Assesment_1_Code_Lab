@@ -37,6 +37,50 @@ while True: # The 'while true' creates an infinite loop as it will keep asking f
 #  Enter Your Password: 12345
 #  Logged In! Please wait...
 
+# Advanced Program
+
+correct_password = "12345"
+
+maximum_attempts = 5
+attempts = 0
+# This shows how many attempts the user can make
+
+while attempts < maximum_attempts:
+    enter_password = input("Enter Your Password: ")
+    attempts += 1 #This makes the attempts lessen everytime the user enters the wrong password
+
+    if enter_password == correct_password:
+        print("Logged In! Please wait...")
+        break
+    
+    else:
+        remaining_attempts = maximum_attempts - attempts
+        
+        if remaining_attempts > 0:
+            print(f"The password is incorrect . You have {remaining_attempts} attempt(s) left")
+        
+        else:
+            print(f"You have no more remaining attempts, authorities have been alerted")
+
+# This program uses a while loop with an if-else statement as the while loop repeats until the user either gets the 
+# password right or uses all the attempts. 
+
+# Output:
+# Enter Your Password: 12345 
+# Logged In! Please wait...
+# Enter Your Password: 12  
+# The password is incorrect . You have 4 attempt(s) left
+# Enter Your Password: 234
+# The password is incorrect . You have 3 attempt(s) left
+# Enter Your Password: 34
+# The password is incorrect . You have 2 attempt(s) left
+# Enter Your Password: 34
+# The password is incorrect . You have 1 attempt(s) left
+# Enter Your Password: 3
+# You have no more remaining attempts, authorities have been alerted
+
+
+
 
 
     
