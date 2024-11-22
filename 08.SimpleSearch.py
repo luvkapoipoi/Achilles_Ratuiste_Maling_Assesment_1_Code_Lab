@@ -18,5 +18,25 @@ if name_search in list_of_names:
     print(f'{name_search} is in the list.')
 
 else:
-    print(f'{name_search} is not in the list')
+    print(f'{name_search} is not in the list.')
 
+# Output:
+# When Sam is in the list:
+# - "Sam is in the list."
+# When Sam is not on the list:
+# - "Sam is not in the list."
+
+#Optional Requirement
+
+list_of_names = ["Jake", "Zac", "Ian", "Ron", "Dave"]
+
+ask_user = input("Enter a name you want to search for: ") #This specifically tells the program the name we want to search in the list
+
+#if-else statement checks whether the name is on the list or not
+if ask_user in list_of_names:
+    print(f'{ask_user} is in the list.')
+
+else:
+    print(f'{ask_user} is not in the list.')
+
+#Output: 
