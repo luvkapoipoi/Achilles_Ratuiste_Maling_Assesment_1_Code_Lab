@@ -22,4 +22,9 @@ if __name__ == "__main__":
     main()   #Applying this ensures that the program is runned directly, not when its imported
 
 #Output: 
+# Enter a number: 5
+# Odd
+
+# Enter a number: 2
+# Even
     

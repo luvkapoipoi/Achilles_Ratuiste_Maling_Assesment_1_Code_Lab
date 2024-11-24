@@ -14,7 +14,7 @@ def hello():
     print ("Hello!") # This will print "Hello" to the console
 
 def main():
-    hello() # This will call the functio hello()
+    hello() # This will call the function hello()
 
 if __name__ == "__main__":
     main() # Lastly, this is the function which will run the main()
