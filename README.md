@@ -1,4 +1,4 @@
-# Assesment 1 Code lab Module by Achilles Maling
+# Assesment 1 Code lab Module by Achilles Ratuiste Maling
 This repository contains a series of exercises given by the tutor and done by the student. Basic Python Exercises are given throughout this repository such as if-else exercises, pyhton loops, arithmetic sequences etc. These exercises are used to improve coding knowledge and to show how to further elaborate and improve a code. In some exercises, multiple programs are given emphasising the difference between the normal program and an advanced program. These exercises are based on real-life situations in which may be useful in the near future.
 
 # List of Exercises
