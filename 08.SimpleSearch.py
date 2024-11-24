@@ -40,3 +40,8 @@ else:
     print(f'{ask_user} is not in the list.')
 
 #Output: 
+# Enter a name you want to search for: Jake
+# Jake is in the list.
+
+# Enter a name you want to search for: Achi
+# Achi is not in the list.

@@ -8,4 +8,7 @@ This repository contains a series of exercises given by the tutor and done by th
   - Exercise #4: Primitive Quiz (04.PrimitiveQuiz.py)
   - Exercise #5: Days Of The Month (05.DaysOfTheMonth.py)
   - Exercise #6: Brute Force Attack (06.BruteForceAttack)
- 
+  - Exerceise #7: Some Counting (07.SomeCounting.py)
+  - Exercise #8: Simple Search (08.SimpleSearch.py)
+  - Exercise #9: Hello (09.Hello.py)
+  - Exercise #10: Is it Even (10.IsItEven.py)
